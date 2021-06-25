@@ -1,0 +1,21 @@
+.content {
+    padding: 50px 0px;
+}
+
+.breadcrumb {
+    background-color: #2c2c2c;
+}
+
+.breadcrumb-item {
+    margin-top: 7px;
+    color: #fff;
+}
+
+.breadcrumb-item a {
+    color: #ef4343;
+    font-weight: bold;
+}
+
+.breadcrumb-item a:hover {
+    color: #ef4343;
+}

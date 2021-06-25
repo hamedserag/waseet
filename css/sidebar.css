@@ -1,0 +1,125 @@
+/*SIDE BAR*/
+
+
+/* dropdown */
+
+.dropdownSideBar .btn {
+    width: 100%;
+    border-radius: 0;
+    border: 1px solid #2c2c2c;
+    background-color: #fff;
+    color: #ef4343;
+    font-weight: bold;
+    text-align: right;
+    padding-right: 12%;
+    background: url(/newsportal/images/svg/down.svg) no-repeat 7px 7px;
+}
+
+.dropdownSideBar {
+    background: url(/newsportal/images/svg/Filter.svg) no-repeat 97% 7px;
+}
+
+.btn:focus {
+    box-shadow: none;
+}
+
+.dropdown-menu {
+    left: auto !important;
+    right: 0 !important;
+}
+
+.subcategoryElement {
+    text-align: right;
+}
+
+
+/*search*/
+
+.search button {
+    border-radius: 0;
+    background-color: #2c2c2c;
+    height: 41px;
+    position: relative;
+    right: 2px;
+}
+
+.search input {
+    border-radius: 0;
+    border: 1px solid #2c2c2c;
+    height: 41px;
+    background: url(/newsportal/images/svg/Search.svg) no-repeat 7px 7px;
+    padding-left: 30px;
+}
+
+.search .row form {
+    width: 100%;
+}
+
+
+/*new news*/
+
+.newNews,
+.services {
+    background-color: #fff;
+    height: 300px;
+    position: relative;
+    overflow-y: scroll;
+    width: 100%;
+    -moz-box-shadow: 0 0 5px #969696;
+    -webkit-box-shadow: 0 0 5px #969696;
+    box-shadow: 0 0 5px #969696;
+}
+
+.newNews::-webkit-scrollbar {
+    width: 5px;
+    background-color: #F5F5F5;
+}
+
+.headerNN,
+.headerService {
+    color: #ef4343;
+    font-weight: bold;
+}
+
+.newNewsContent a {
+    border-bottom: 1px solid #ef4343;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    color: #2c2c2c;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+
+/*services*/
+
+.services {
+    height: 450px;
+}
+
+.servicesContent a {
+    border-bottom: 1px solid #ef4343;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    color: #2c2c2c;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+
+/*ad*/
+
+.ad img {
+    width: 116%;
+    position: relative;
+    left: -8%;
+    height: 600px;
+    margin-bottom: 50px;
+}
+
+.ad {
+    background: url('../newsportal/images/media/adBanner.png') no-repeat 0px 0px;
+    height: 600px;
+    width: 100%;
+    background-size: 100% 100%;
+}
